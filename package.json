@@ -1,0 +1,16 @@
+{
+  "name": "bb-scrape",
+  "version": "0.0.1",
+  "description": "Backup all your BitBucket repositories",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Lewis",
+  "license": "MIT",
+  "dependencies": {
+    "nodegit": "^0.13.0",
+    "request": "^2.72.0",
+    "yargs": "^4.7.1"
+  }
+}
